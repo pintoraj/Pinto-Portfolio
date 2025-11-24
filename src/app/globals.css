@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.border-animate {
+    position: relative;
+    overflow: hidden; 
+    /* Use a dark background to contain the glow */
+    background: rgb(0, 0, 0); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    /* REMOVED: z-index: 10; */ 
+}
+
+/* The element that creates the rotating gradient border */
+/* ... (the rest of ::before remains the same) ... */
+
+/* The button's content needs to be positioned above the rotating border */
+.border-animate > * {
+    position: relative;
+    z-index: 10;
+}
+/* Keyframe animation for rotation */
+@keyframes borderRotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
