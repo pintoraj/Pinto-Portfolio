@@ -67,7 +67,7 @@ export default function HomePage() {
         className="font-sans font-medium text-4xl sm:text-5xl md:text-6xl opacity-15"
         style={{ fontSize: 'clamp(2rem, 4vw, 4rem)' }} // O - Intermediate Size
     >
-        O
+        0
     </span>
             </h1>
                 <h2 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-300 text-glow">
