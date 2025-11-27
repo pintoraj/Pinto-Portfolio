@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,400&family=Montserrat:wght@100;700&family=Bebas+Neue&family=Cormorant+Garamond:wght@300;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -18,6 +19,23 @@
     --foreground: #ededed;
   }
 }
+
+
+/* Define CSS classes for the imported fonts */
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+
 
 body {
   background: var(--background);
@@ -47,4 +65,72 @@ body {
     to {
         transform: rotate(360deg);
     }
+}
+
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  30% {
+    transform: translate(calc(200vw - 100%), calc(200vh - 100%)) scale(1.1);
+  }
+  60% {
+    transform: translate(0, calc(200vh - 100%)) scale(0.9);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animate-delay-2000 {
+  animation-delay: 2s;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fadeInDown 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+.animate-stagger-fade-in {
+    animation: fadeInDown 0.8s ease-out forwards;
+    opacity: 0; 
 }

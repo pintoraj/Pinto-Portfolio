@@ -1,13 +1,17 @@
 'use client';
 
 import Link from 'next/link';
-// Import useRouter from next/router (or next/navigation in newer Next.js versions)
-import { useRouter } from 'next/router'; 
+// Removed: import { useRouter } from 'next/router'; // This is for the old Pages Router
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react'; // Added useEffect for path update
+import { useState, useEffect } from 'react'; 
 import { motion } from 'framer-motion'; 
+import React from 'react'; // Ensure React is imported for React.FC
 
-// --- [SquigglyUnderline Component remains unchanged] ---
+// --- TYPE DEFINITIONS (NEW) ---
+interface UnderlineProps {
+    isHovered: boolean;
+    isSelected: boolean;
+}
 
 const navItems = [
     { name: 'Home', href: '/' },
@@ -17,7 +21,8 @@ const navItems = [
     { name: 'Contact', href: '/contact' },
 ];
 
-const SquigglyUnderline = ({ isHovered, isSelected }) => {
+// --- SquigglyUnderline Component (FIXED) ---
+const SquigglyUnderline: React.FC<UnderlineProps> = ({ isHovered, isSelected }) => {
     if (!isHovered && !isSelected) return null;
     const color = isSelected ? "#A3A3A3" : "#A3A3A3"; 
 
@@ -49,12 +54,11 @@ const SquigglyUnderline = ({ isHovered, isSelected }) => {
 // --------------------------------------------------------------------------------
 
 export default function NavBar() {
-    // 1. Use usePathname to get the current URL path
+    // 1. usePathname is correctly used from 'next/navigation' (App Router)
     const activePath = usePathname(); 
-    const [hoveredItem, setHoveredItem] = useState(null);
+    const [hoveredItem, setHoveredItem] = useState<string | null>(null); // Added type definition for state
 
-    // Note: We no longer need the useEffect or the useState(router.pathname) initialization
-    // because usePathname() automatically provides the up-to-date path.
+    // Note: useEffect is not necessary here since usePathname provides the current path instantly.
 
     return (
         <nav className="fixed top-0 left-0 w-full z-20 backdrop-filter backdrop-blur-lg bg-white/10 dark:bg-gray-900/20 border-b border-white/20 dark:border-gray-700/50 shadow-lg">
