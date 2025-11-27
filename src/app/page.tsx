@@ -43,8 +43,8 @@ export default function HomePage() {
     </span>
     {/* i - New: Technical, Thin Monospace (Code/Data look) */}
     <span
-        className="font-mono font-thin text-3xl sm:text-4xl md:text-5xl italic opacity-15  mt-2"
-        style={{ fontSize: 'clamp(4rem, 3vw, 4rem)' }} // i - Smallest Size
+        className="font-mono font-serif text-3xl sm:text-xl md:text-5xl italic opacity-15 sm:mb-1 xl:mt-2"
+        style={{ fontSize: 'clamp(2rem, 3vw, 7rem)' }} // i - Smallest Size
     >
         i
     </span>
@@ -97,14 +97,16 @@ export default function HomePage() {
         </div>
       </div>
     <div 
-          className="fixed bottom-0 right-0 w-42 h-15 bg-black z-[99]"
+          className="fixed bottom-0 right-0 w-42 h-15 bg-black z-[99] rounded-lg "
           style={{ 
               // Custom size to ensure full coverage of the watermark
-              width: '250px', 
-              height: '40px',
+              width: '200px', 
+              height: '60px',
               // Offset slightly from the corner if necessary, or keep at 0
-              bottom: '3vh',
-              right: '0vh'
+              bottom: '1vh',
+              right: '0vh',
+
+
           }}
       >
       </div>
