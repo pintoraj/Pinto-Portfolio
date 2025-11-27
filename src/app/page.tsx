@@ -43,8 +43,8 @@ export default function HomePage() {
     </span>
     {/* i - New: Technical, Thin Monospace (Code/Data look) */}
     <span
-        className="font-mono font-thin text-3xl sm:text-4xl md:text-5xl italic opacity-15"
-        style={{ fontSize: 'clamp(1.5rem, 3vw, 3rem)' }} // i - Smallest Size
+        className="font-mono font-thin text-3xl sm:text-4xl md:text-5xl italic opacity-15  mt-2"
+        style={{ fontSize: 'clamp(4rem, 3vw, 4rem)' }} // i - Smallest Size
     >
         i
     </span>
