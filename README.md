@@ -4,7 +4,6 @@
 [](https://www.google.com/search?q=https://github.com/pintoraj/Pinto-Portfolio/graphs/commit-activity)
 [](https://www.google.com/search?q=https://github.com/pintoraj/Pinto-Portfolio/stargazers)
 [](https://github.com/pintoraj/Pinto-Portfolio)
-[](pintoraj.in)
 
 ## ⚠️ WARNING: Prepare to be Unwhelmed
 
@@ -76,4 +75,5 @@ I am indeed a "self-starter" who is "passionate about technology," and yes, my g
 
 Please send all job offers, lavish compliments, and feature requests directly into the nearest recycling bin. Or, you know, use the contact form on the site. Whatever works.
 
-**© 2024 Pinto Industries. All rights reserved. (Except for the code, which is all MIT Licensed, because sharing is caring... or something.)**
+### **📢 The Final, Completely Unnecessary Announcement:**
+You can actually view this masterpiece live at [pintoraj.in](https://pintoraj.in). Yes, I spent actual money on that domain. That should tell you everything you need to know about my commitment to... something.
