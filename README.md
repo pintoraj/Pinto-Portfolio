@@ -76,4 +76,4 @@ I am indeed a "self-starter" who is "passionate about technology," and yes, my g
 For Serious Inquiries: If you managed to read this far and are still interested in hiring me, please use the contact details found in my GitHub profile or on the website itself. I keep my professional channels separate from my public repositories because I'm pretending to be organized. Do not send DMs here.
 
 ### **📢 The Final, Completely Unnecessary Announcement:**
-You can actually view this masterpiece live at [pintoraj.in](https://pintoraj.in). Yes, I spent actual money on that domain. That should tell you everything you need to know about my commitment to... something.
+You can actually view this masterpiece live at <a href="https://pintoraj.in" target="_blank">pintoraj.in</a>. Yes, I spent actual money on that domain. That should tell you everything you need to know about my commitment to... something.
