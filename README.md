@@ -73,7 +73,7 @@ Open [http://localhost:3000](https://www.google.com/search?q=http://localhost:30
 
 I am indeed a "self-starter" who is "passionate about technology," and yes, my greatest weakness is that "I sometimes work too hard." Now, about that salary...
 
-Please send all job offers, lavish compliments, and feature requests directly into the nearest recycling bin. Or, you know, use the contact form on the site. Whatever works.
+For Serious Inquiries: If you managed to read this far and are still interested in hiring me, please use the contact details found in my GitHub profile or on the website itself. I keep my professional channels separate from my public repositories because I'm pretending to be organized. Do not send DMs here.
 
 ### **📢 The Final, Completely Unnecessary Announcement:**
 You can actually view this masterpiece live at [pintoraj.in](https://pintoraj.in). Yes, I spent actual money on that domain. That should tell you everything you need to know about my commitment to... something.
